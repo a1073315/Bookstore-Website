@@ -1,0 +1,73 @@
+.panel{
+    width: 500px;
+    height: 600px;
+    margin: 2% 33%;
+    box-shadow: 0 6px 17px 0 rgba(0,0,0,.1);
+}
+.linephoto{
+    width: 100%;
+    text-align: center;
+}
+.linephoto img{
+    width: 150px;
+}
+.log input{
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 10px 0;
+    border-width:0 0 2px 0; 
+    border-color:#dee5ec;
+}
+::placeholder { 
+    color:  #dee5ec;
+    font-weight:bold;
+}
+.log input:focus{
+    outline: none;
+    border-width:0 0 2px 0;
+    border-color:green;
+}
+.log1 button{
+    width: 400px;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 15px;
+    background-color:#dee5ec;
+    color: white;
+    border-width:0;
+    border-radius: 6px;
+    font-weight:bold;
+}
+.log p{
+    width: 100%;
+    color: #bec8d2;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-weight:bold;
+}
+.log2 button{
+    width: 400px;
+    height: 60px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color:#4a4a4a!important;
+    border-color: #bec8d2;
+    border-width: 1px;
+    border-radius: 6px;
+    font-weight:bold;
+}
+.log a{
+    margin-left: 175px;
+}
+.foot1{
+    float: left;
+    color: lightgray;
+}
+.foot2{
+    float: right;
+    color: black;
+}
